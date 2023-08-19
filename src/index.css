@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style-type: none;
+}
+
+.weather-data {
+  padding: 20px 30px;
+
+}
+
+.weather-data h1 {
+  margin-bottom: 20px;
+}
+
+.weather-data__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.weather-data__list li {
+  border: 1px solid #000;
+  padding: 10px;
+}
